@@ -1,0 +1,11 @@
+{
+    "presets": [
+      [
+        "@babel/preset-react",
+        {
+          "runtime": "automatic",
+          "importSource": "your-jsx-library" // Replace with your library, like "@emotion/react"
+        }
+      ]
+    ]
+  }
